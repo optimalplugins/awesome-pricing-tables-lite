@@ -1,0 +1,225 @@
+.optimal-pricing-table hr {
+    margin: 30px 0 15px 0;
+}
+
+
+#title {
+    width: 260px;
+    margin-bottom: 15px;
+}
+
+.optimal-pricing-table .addRow,
+.optimal-pricing-table .addColumn {
+    margin-bottom: 10px;
+    width: 45%;
+}
+
+.button-panel {
+    clear: both;
+    margin-bottom: 15px;
+}
+
+.optimal-pricing-table select,
+.optimal-pricing-table input[type="text"],
+.optimal-pricing-table input[type="email"],
+.optimal-pricing-table input[type="password"],
+.optimal-pricing-table input.color {
+    border: 1px solid #999;
+}
+
+.optimal-pricing-table .setting-label,
+.optimal-pricing-table a.setting-label {
+/*
+//    background: #3d79a1;
+//    background: linear-gradient(to bottom, #ffcc1e 0%, #ffae00 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+//    border-radius : 4 px;
+*/
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    color: black;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 12px 24px;
+}
+
+.optimal-pricing-table .main-content {
+    position: relative;
+}
+
+.optimal-pricing-table .settings-area {
+    float: left;
+    width: 250px;
+    display: inline-block;
+    background-color: #efefef;
+    border: 1px solid #cccccc;
+}
+
+.optimal-pricing-table .preview-area {
+    position: fixed;
+    top: 135px;
+    margin: 0px 15px;
+    padding: 0px;
+    height: auto;
+    float: left;
+    display: inline-block
+}
+
+.optimal-pricing-table .preview-area h2 {
+    margin-top: 0;
+}
+
+.optimal-pricing-table .preview-element-area {
+    margin: 1rem 0;
+    display: inline-block;
+}
+
+.optimal-pricing-table .presets,
+.optimal-pricing-table .nav > li {
+    cursor: pointer;
+}
+
+.optimal-pricing-table .nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.optimal-pricing-table .nav li {
+    margin-bottom: 0 !important;
+}
+
+.optimal-pricing-table .nav li > h3 {
+    padding: 0.3em 1em;
+    font-size: 1em;
+    position: relative;
+    cursor: pointer;
+    margin-top: 0px;
+    transition: background 200ms ease-in;
+    margin-bottom: 0;
+    background-color: #616975;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(114, 122, 134)),to(rgb(80, 88, 100)));
+    background-image: -webkit-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: -moz-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: -o-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: -ms-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#727a86', EndColorStr='#505864');
+    border-bottom: 1px solid #33373d;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #878e98;
+    -moz-box-shadow: inset 0px 1px 0px 0px #878e98;
+    box-shadow: inset 0px 1px 0px 0px #878e98;
+    box-shadow: inset 0px 1px 0px 0px #878e98;
+    height: 2.75em;
+    line-height: 2.75em;
+    display: block;
+    position: relative;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0px 1px 0px rgba(0,0,0,.5);
+}
+
+.optimal-pricing-table .nav li > h3 > i {
+    padding-top: 10px;
+    float: right;
+}
+
+.optimal-pricing-table .nav-div {
+    padding: 15px;
+    min-height: 30px;
+}
+
+.optimal-pricing-table .nav-div p {
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.optimal-pricing-table label {
+    font-size: 14px;
+}
+
+.optimal-pricing-table .nav-div select {
+    width: 50%;
+    float: right;
+}
+
+.optimal-pricing-table .nav-div input[type=text] {
+
+}
+
+.optimal-pricing-table .nav-div input.color {
+    width: 75px;
+    float: right;
+}
+
+.optimal-pricing-table .nav-div .ui-slider {
+    width: 140px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.optimal-pricing-table .nav-div input[type=text].slider {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0 5px;
+    text-align: right;
+    width: 35px;
+}
+
+.optimal-pricing-table .nav-div input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    float: right;
+}
+
+.optimal-pricing-table #html-tab-div {
+    position: absolute;
+    width: 100%;
+    display: none;
+    padding-top: 20px;
+}
+
+.optimal-pricing-table pre[class*="language-"],
+.optimal-pricing-table code[class*="language"] {
+    max-height: 700px !important;
+}
+
+.optimal-pricing-table .tenSplitter {
+    height: 10px;
+}
+
+.optimal-pricing-table .slider {
+    border: 0;
+    color: #000;
+}
+
+.optimal-pricing-table .addColumnContainer {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    float: left;
+}
+
+.optimal-pricing-table .addRowContainer {
+    margin-bottom: 20px;
+    float: left;
+}
+
+.optimal-pricing-table .control {
+    margin-left: 0px;
+}
+
+.optimal-pricing-table .clickable {
+    cursor: pointer;
+}
+
+#activeEditing {
+    position: relative;
+    left: 0px;
+    top: 0px;
+/ / z-index : 9999 !important;
+}
+
+#style-tab-div hr {
+    margin-top: 30px;
+}
